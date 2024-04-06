@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0B382A02BC18CB30087FAF9 /* ScarlettApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3829F2BC18CB30087FAF9 /* ScarlettApp.swift */; };
+		D0B382A22BC18CB30087FAF9 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B382A12BC18CB30087FAF9 /* Persistence.swift */; };
+		D0B382A52BC18CB30087FAF9 /* Scarlett.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0B382A32BC18CB30087FAF9 /* Scarlett.xcdatamodeld */; };
+		D0B382A72BC18CB30087FAF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B382A62BC18CB30087FAF9 /* ContentView.swift */; };
+		D0B382A92BC18CB50087FAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B382A82BC18CB50087FAF9 /* Assets.xcassets */; };
+		D0B382AD2BC18CB50087FAF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B382AC2BC18CB50087FAF9 /* Preview Assets.xcassets */; };
+		D0B382B72BC18CB50087FAF9 /* ScarlettTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B382B62BC18CB50087FAF9 /* ScarlettTests.swift */; };
+		D0B382C12BC18CB50087FAF9 /* ScarlettUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B382C02BC18CB50087FAF9 /* ScarlettUITests.swift */; };
+		D0B382C32BC18CB50087FAF9 /* ScarlettUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B382C22BC18CB50087FAF9 /* ScarlettUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0B382B32BC18CB50087FAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B382942BC18CB30087FAF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B3829B2BC18CB30087FAF9;
+			remoteInfo = Scarlett;
+		};
+		D0B382BD2BC18CB50087FAF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B382942BC18CB30087FAF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B3829B2BC18CB30087FAF9;
+			remoteInfo = Scarlett;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0B3829C2BC18CB30087FAF9 /* Scarlett.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scarlett.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B3829F2BC18CB30087FAF9 /* ScarlettApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScarlettApp.swift; sourceTree = "<group>"; };
+		D0B382A12BC18CB30087FAF9 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D0B382A42BC18CB30087FAF9 /* Scarlett.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scarlett.xcdatamodel; sourceTree = "<group>"; };
+		D0B382A62BC18CB30087FAF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D0B382A82BC18CB50087FAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B382AA2BC18CB50087FAF9 /* Scarlett.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scarlett.entitlements; sourceTree = "<group>"; };
+		D0B382AC2BC18CB50087FAF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0B382B22BC18CB50087FAF9 /* ScarlettTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScarlettTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B382B62BC18CB50087FAF9 /* ScarlettTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScarlettTests.swift; sourceTree = "<group>"; };
+		D0B382BC2BC18CB50087FAF9 /* ScarlettUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScarlettUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B382C02BC18CB50087FAF9 /* ScarlettUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScarlettUITests.swift; sourceTree = "<group>"; };
+		D0B382C22BC18CB50087FAF9 /* ScarlettUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScarlettUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B382992BC18CB30087FAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B382AF2BC18CB50087FAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B382B92BC18CB50087FAF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B382932BC18CB30087FAF9 = {
+			isa = PBXGroup;
+			children = (
+				D0B3829E2BC18CB30087FAF9 /* Scarlett */,
+				D0B382B52BC18CB50087FAF9 /* ScarlettTests */,
+				D0B382BF2BC18CB50087FAF9 /* ScarlettUITests */,
+				D0B3829D2BC18CB30087FAF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B3829D2BC18CB30087FAF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B3829C2BC18CB30087FAF9 /* Scarlett.app */,
+				D0B382B22BC18CB50087FAF9 /* ScarlettTests.xctest */,
+				D0B382BC2BC18CB50087FAF9 /* ScarlettUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B3829E2BC18CB30087FAF9 /* Scarlett */ = {
+			isa = PBXGroup;
+			children = (
+				D0B3829F2BC18CB30087FAF9 /* ScarlettApp.swift */,
+				D0B382A12BC18CB30087FAF9 /* Persistence.swift */,
+				D0B382A62BC18CB30087FAF9 /* ContentView.swift */,
+				D0B382A82BC18CB50087FAF9 /* Assets.xcassets */,
+				D0B382AA2BC18CB50087FAF9 /* Scarlett.entitlements */,
+				D0B382A32BC18CB30087FAF9 /* Scarlett.xcdatamodeld */,
+				D0B382AB2BC18CB50087FAF9 /* Preview Content */,
+			);
+			path = Scarlett;
+			sourceTree = "<group>";
+		};
+		D0B382AB2BC18CB50087FAF9 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D0B382AC2BC18CB50087FAF9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0B382B52BC18CB50087FAF9 /* ScarlettTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B382B62BC18CB50087FAF9 /* ScarlettTests.swift */,
+			);
+			path = ScarlettTests;
+			sourceTree = "<group>";
+		};
+		D0B382BF2BC18CB50087FAF9 /* ScarlettUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B382C02BC18CB50087FAF9 /* ScarlettUITests.swift */,
+				D0B382C22BC18CB50087FAF9 /* ScarlettUITestsLaunchTests.swift */,
+			);
+			path = ScarlettUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B3829B2BC18CB30087FAF9 /* Scarlett */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B382C62BC18CB50087FAF9 /* Build configuration list for PBXNativeTarget "Scarlett" */;
+			buildPhases = (
+				D0B382982BC18CB30087FAF9 /* Sources */,
+				D0B382992BC18CB30087FAF9 /* Frameworks */,
+				D0B3829A2BC18CB30087FAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Scarlett;
+			productName = Scarlett;
+			productReference = D0B3829C2BC18CB30087FAF9 /* Scarlett.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0B382B12BC18CB50087FAF9 /* ScarlettTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B382C92BC18CB50087FAF9 /* Build configuration list for PBXNativeTarget "ScarlettTests" */;
+			buildPhases = (
+				D0B382AE2BC18CB50087FAF9 /* Sources */,
+				D0B382AF2BC18CB50087FAF9 /* Frameworks */,
+				D0B382B02BC18CB50087FAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B382B42BC18CB50087FAF9 /* PBXTargetDependency */,
+			);
+			name = ScarlettTests;
+			productName = ScarlettTests;
+			productReference = D0B382B22BC18CB50087FAF9 /* ScarlettTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D0B382BB2BC18CB50087FAF9 /* ScarlettUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B382CC2BC18CB50087FAF9 /* Build configuration list for PBXNativeTarget "ScarlettUITests" */;
+			buildPhases = (
+				D0B382B82BC18CB50087FAF9 /* Sources */,
+				D0B382B92BC18CB50087FAF9 /* Frameworks */,
+				D0B382BA2BC18CB50087FAF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B382BE2BC18CB50087FAF9 /* PBXTargetDependency */,
+			);
+			name = ScarlettUITests;
+			productName = ScarlettUITests;
+			productReference = D0B382BC2BC18CB50087FAF9 /* ScarlettUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B382942BC18CB30087FAF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					D0B3829B2BC18CB30087FAF9 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					D0B382B12BC18CB50087FAF9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D0B3829B2BC18CB30087FAF9;
+					};
+					D0B382BB2BC18CB50087FAF9 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = D0B3829B2BC18CB30087FAF9;
+					};
+				};
+			};
+			buildConfigurationList = D0B382972BC18CB30087FAF9 /* Build configuration list for PBXProject "Scarlett" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B382932BC18CB30087FAF9;
+			productRefGroup = D0B3829D2BC18CB30087FAF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B3829B2BC18CB30087FAF9 /* Scarlett */,
+				D0B382B12BC18CB50087FAF9 /* ScarlettTests */,
+				D0B382BB2BC18CB50087FAF9 /* ScarlettUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B3829A2BC18CB30087FAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B382AD2BC18CB50087FAF9 /* Preview Assets.xcassets in Resources */,
+				D0B382A92BC18CB50087FAF9 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B382B02BC18CB50087FAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B382BA2BC18CB50087FAF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B382982BC18CB30087FAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B382A52BC18CB30087FAF9 /* Scarlett.xcdatamodeld in Sources */,
+				D0B382A02BC18CB30087FAF9 /* ScarlettApp.swift in Sources */,
+				D0B382A72BC18CB30087FAF9 /* ContentView.swift in Sources */,
+				D0B382A22BC18CB30087FAF9 /* Persistence.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B382AE2BC18CB50087FAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B382B72BC18CB50087FAF9 /* ScarlettTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B382B82BC18CB50087FAF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B382C32BC18CB50087FAF9 /* ScarlettUITestsLaunchTests.swift in Sources */,
+				D0B382C12BC18CB50087FAF9 /* ScarlettUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0B382B42BC18CB50087FAF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B3829B2BC18CB30087FAF9 /* Scarlett */;
+			targetProxy = D0B382B32BC18CB50087FAF9 /* PBXContainerItemProxy */;
+		};
+		D0B382BE2BC18CB50087FAF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B3829B2BC18CB30087FAF9 /* Scarlett */;
+			targetProxy = D0B382BD2BC18CB50087FAF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D0B382C42BC18CB50087FAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0B382C52BC18CB50087FAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D0B382C72BC18CB50087FAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Scarlett/Scarlett.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scarlett/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jusaaatin.Scarlett;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B382C82BC18CB50087FAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Scarlett/Scarlett.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Scarlett/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jusaaatin.Scarlett;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D0B382CA2BC18CB50087FAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jusaaatin.ScarlettTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scarlett.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scarlett";
+			};
+			name = Debug;
+		};
+		D0B382CB2BC18CB50087FAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jusaaatin.ScarlettTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Scarlett.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Scarlett";
+			};
+			name = Release;
+		};
+		D0B382CD2BC18CB50087FAF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jusaaatin.ScarlettUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scarlett;
+			};
+			name = Debug;
+		};
+		D0B382CE2BC18CB50087FAF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MACOSX_DEPLOYMENT_TARGET = 14.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jusaaatin.ScarlettUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Scarlett;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B382972BC18CB30087FAF9 /* Build configuration list for PBXProject "Scarlett" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B382C42BC18CB50087FAF9 /* Debug */,
+				D0B382C52BC18CB50087FAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B382C62BC18CB50087FAF9 /* Build configuration list for PBXNativeTarget "Scarlett" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B382C72BC18CB50087FAF9 /* Debug */,
+				D0B382C82BC18CB50087FAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B382C92BC18CB50087FAF9 /* Build configuration list for PBXNativeTarget "ScarlettTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B382CA2BC18CB50087FAF9 /* Debug */,
+				D0B382CB2BC18CB50087FAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B382CC2BC18CB50087FAF9 /* Build configuration list for PBXNativeTarget "ScarlettUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B382CD2BC18CB50087FAF9 /* Debug */,
+				D0B382CE2BC18CB50087FAF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D0B382A32BC18CB30087FAF9 /* Scarlett.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D0B382A42BC18CB30087FAF9 /* Scarlett.xcdatamodel */,
+			);
+			currentVersion = D0B382A42BC18CB30087FAF9 /* Scarlett.xcdatamodel */;
+			path = Scarlett.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D0B382942BC18CB30087FAF9 /* Project object */;
+}
