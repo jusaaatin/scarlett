@@ -9,12 +9,16 @@ import SwiftUI
 
 @main
 struct ScarlettApp: App {
-    let persistenceController = PersistenceController.shared
-
+    @AppStorage("isOnboarding") var isOnboarding: Bool = false
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }
+
+#Preview {
+    ContentView()
+}
+
