@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0548BAC2BC255B400025C99 /* alarmTextWidgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0548BAB2BC255B400025C99 /* alarmTextWidgetView.swift */; };
+		D0548BAE2BC2566500025C99 /* AlarmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0548BAD2BC2566500025C99 /* AlarmModel.swift */; };
+		D0548BB02BC257AD00025C99 /* AlarmData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0548BAF2BC257AD00025C99 /* AlarmData.swift */; };
 		D0B382A02BC18CB30087FAF9 /* ScarlettApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B3829F2BC18CB30087FAF9 /* ScarlettApp.swift */; };
 		D0B382A52BC18CB30087FAF9 /* Scarlett.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D0B382A32BC18CB30087FAF9 /* Scarlett.xcdatamodeld */; };
 		D0B382A72BC18CB30087FAF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B382A62BC18CB30087FAF9 /* ContentView.swift */; };
@@ -38,6 +41,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D0548BAB2BC255B400025C99 /* alarmTextWidgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alarmTextWidgetView.swift; sourceTree = "<group>"; };
+		D0548BAD2BC2566500025C99 /* AlarmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmModel.swift; sourceTree = "<group>"; };
+		D0548BAF2BC257AD00025C99 /* AlarmData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmData.swift; sourceTree = "<group>"; };
 		D0B3829C2BC18CB30087FAF9 /* Scarlett.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scarlett.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B3829F2BC18CB30087FAF9 /* ScarlettApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScarlettApp.swift; sourceTree = "<group>"; };
 		D0B382A42BC18CB30087FAF9 /* Scarlett.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Scarlett.xcdatamodel; sourceTree = "<group>"; };
@@ -162,6 +168,7 @@
 			children = (
 				D0B382D82BC199400087FAF9 /* timeView.swift */,
 				D0B382DA2BC1A1F60087FAF9 /* dateView.swift */,
+				D0548BAB2BC255B400025C99 /* alarmTextWidgetView.swift */,
 				D0B382DC2BC1AEEC0087FAF9 /* brightnessSideScrollView.swift */,
 			);
 			path = Views;
@@ -179,6 +186,7 @@
 		D0B382D62BC196B60087FAF9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D0548BAD2BC2566500025C99 /* AlarmModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -186,6 +194,7 @@
 		D0B382D72BC196BB0087FAF9 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				D0548BAF2BC257AD00025C99 /* AlarmData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -323,7 +332,10 @@
 				D0B382DB2BC1A1F60087FAF9 /* dateView.swift in Sources */,
 				D0B382A52BC18CB30087FAF9 /* Scarlett.xcdatamodeld in Sources */,
 				D0B382A02BC18CB30087FAF9 /* ScarlettApp.swift in Sources */,
+				D0548BAC2BC255B400025C99 /* alarmTextWidgetView.swift in Sources */,
+				D0548BAE2BC2566500025C99 /* AlarmModel.swift in Sources */,
 				D0B382DD2BC1AEEC0087FAF9 /* brightnessSideScrollView.swift in Sources */,
+				D0548BB02BC257AD00025C99 /* AlarmData.swift in Sources */,
 				D0B382A72BC18CB30087FAF9 /* ContentView.swift in Sources */,
 				D0B382D92BC199400087FAF9 /* timeView.swift in Sources */,
 			);

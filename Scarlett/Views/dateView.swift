@@ -18,7 +18,7 @@ struct dateView: View {
             
     var body: some View {
         Text(dateNow)
-            .font(.system(size: 75, design: .monospaced))
+            .font(.system(size: 55, design: .monospaced))
             .lineLimit(1)
             .bold()
         .onReceive(timer) { _ in

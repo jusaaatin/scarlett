@@ -12,6 +12,8 @@ struct brightnessSideScrollView: View {
         ZStack{
             RoundedRectangle(cornerRadius: 100)
                 .frame(width:50, height:350)
+                .foregroundColor(.gray)
+                .opacity(0.5)
         }
     }
 }
